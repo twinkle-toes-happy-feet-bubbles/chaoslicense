@@ -1,0 +1,60 @@
+.logo{
+  width: 66px;
+  height: 66px;
+}
+#title{
+font-weight: 300;
+color:  mediumturquoise;
+font-family: 'Cinzel', serif;
+text-decoration: none;
+
+padding: none;
+}
+
+#title::first-letter{
+  color: turquoise;
+}
+
+.brandName{
+  position: absolute;
+  padding: none;
+  top: 0;
+  right: 0;
+  margin: 0;
+}
+
+
+.brandName a:link{
+  text-decoration: none;
+} 
+
+li{
+  text-decoration: none;
+}
+
+input{
+  width: 14em;
+  margin: 0.6em;
+  padding: 0.2em;
+  color: #FFFFFF;
+}
+
+input:focus{
+  outline: none;
+  border: 1px solid #6AA1FF;
+  background: transparent;
+} 
+
+textarea{
+  width: 15em;
+  height: 9em;
+  margin: 0.3px;
+  padding: 0.1em;
+  color: #FFFFFF;
+}
+
+textarea:focus{
+  outline: none;
+  border: 1px solid #6AA1FF;
+  background: transparent;
+} 
